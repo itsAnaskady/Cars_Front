@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+.home {
+  background-image: url("../image/Background.gif");
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  height: 99vh;
+  justify-content: center;
+  width: 98.7vw;
+}
+
+.home::after {
+  background-color: #000;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.home span {
+  background-image: linear-gradient(60deg, #fbde22, #efebe3);
+  background-clip: text;
+  color: transparent;
+}
+.home h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  z-index: 2;
+}
+.Typewriter {
+  color: white;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+
+  z-index: 2;
+  padding: 0 100px;
+  text-align: center;
+}
+.Dev-Card {
+  background-image: url("../../../Images/LOCATIONVB.png");
+  background-position: center;
+  background-size: cover;
+  width: 180px;
+  height: 180px;
+  border-radius: 180px;
+  z-index: 2;
+  display: flex;
+
+  box-shadow: 0 0 0 10px #eeeae911;
+}
